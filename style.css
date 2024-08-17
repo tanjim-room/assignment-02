@@ -440,12 +440,11 @@ footer{
     margin-top: 30px;
     font-weight: 400;
     font-size: 0.8rem;
-    text-align: justify;
 }
 .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:10px
+    gap:10px;
     
 
 }
@@ -461,17 +460,35 @@ footer{
     font-size: 1.2rem;
 }
 .get-start{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 .col-3{
-    display: flex;
+    /* display: flex;
     justify-content: right;
     flex-direction: column;
-    padding-left: 30px;
+    padding-left: 30px; */
 }
 .col-2{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
+}
+hr {
+    border: none;           /* Removes the default border */
+    height: 1px;            /* Sets the height of the line */
+    background-color: rgb(255, 255, 255); /* Changes the color of the line */
+    width: 100%;             /* Sets the width of the line */
+    margin-top: 0px auto; 
+      /* Adds margin and centers the line */
+    opacity: 0.5;           /* Adjusts the transparency */
+    border-radius: 5px; 
+    margin-top: 50px;  
+    margin-bottom: 20px;  /* Rounds the edges of the line */
+  }
+.copyright{
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
 }
